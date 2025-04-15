@@ -9,10 +9,6 @@
   text-decoration: none;
 }
 
-a {
-  text-decoration: none !important;
-}
-
 nav {
     background: #282828;
     border-radius: 0px 0px 30px 30px;
