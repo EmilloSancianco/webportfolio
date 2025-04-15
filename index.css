@@ -153,9 +153,15 @@ h3, h4, h5, h6 {
     transition: transform 0.4s ease-out, box-shadow 0.4s ease-out;
 }
 
-.cards a {
-    text-decoration: none !important;
-} 
+a.card-link {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+a.card-link * {
+  text-decoration: none !important;
+  color: inherit !important;
+}
 
 .cards:hover {
     transform: scale(1.08);
