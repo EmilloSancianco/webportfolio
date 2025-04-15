@@ -151,11 +151,13 @@ h3, h4, h5, h6 {
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     transition: transform 0.4s ease-out, box-shadow 0.4s ease-out;
+    text-decoration: none !important;
 }
 
 .cards:hover {
     transform: scale(1.08);
     box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.4); 
+    text-decoration: none !important;
 }
 
 .img-cards {
@@ -260,14 +262,6 @@ iframe {
     color: #121212 !important;
     border-radius: 20px !important;
     transform: scale(1.1);  
-}
-
-.card-link {
-  text-decoration: none !important;
-}
-
-.card-link * {
-  text-decoration: none !important;
 }
 
 footer {
